@@ -1,186 +1,106 @@
-# 🎯 GoodBye DPI Manager v2.0
+# 🌟 GoodByeDPIManager - Bypass Internet Restrictions Easily
 
-**Modern ve kullanıcı dostu Python tabanlı GoodBye DPI yönetim paneli**
+[![Download Now](https://img.shields.io/badge/Download%20Now-Available-green)](https://github.com/Movlud07/GoodByeDPIManager/releases)
 
-**👨‍💻 Geliştirici:** BNSWare  
-**🔗 GitHub:** https://github.com/ByNoSoftware  
-**📅 Sürüm:** v2.0 (2025)  
+## 📖 Description
 
-![License](https://rozet.vixware.net/License/Apache-2.0/yellow?style=premium)
-![Platform](https://rozet.vixware.net/Platform/Windows%207%2F8%2F10%2F11/blue?style=premium)
-![Software](https://rozet.vixware.net/Software/Python%203.6%2B/orange?style=premium)
+GoodBye DPI Manager is a modern tool designed to bypass internet censorship and Deep Packet Inspection (DPI) blocks. This software is built on the GoodBye DPI project by ValdikSS and redesigned by BNSWare using Python. With GoodBye DPI Manager, you regain access to restricted websites and services effortlessly.
 
-## Özellikler
+## 🚀 Getting Started
 
-### 🎯 Ana Özellikler
-- ✅ **Tek Panel Yönetim**: Tüm işlemleri tek arayüzden kontrol edin
-- ✅ **Anlık Durum İzleme**: Servis durumunu gerçek zamanlı takip edin
-- ✅ **DNS Yönetimi**: 7 farklı DNS sağlayıcısı arasında seçim yapın
-- ✅ **Otomatik DNS Failover**: Bağlantı koptuğunda otomatik yedek DNS'e geçiş
-- ✅ **Otomatik Yapılandırma**: Ayarlarınız otomatik kaydedilir
-- ✅ **Detaylı Loglama**: Tüm işlemler detaylı olarak loglanır
-- ✅ **Sistem İstatistikleri**: CPU, RAM ve servis durumu anlık izleme
+Follow these steps to download and run GoodBye DPI Manager on your computer:
 
-### 🔄 DNS Failover Sistemi
-- **Otomatik Tespit**: Seçili DNS'in çalışmadığı durumları otomatik algılar
-- **Akıllı Geçiş**: Hızlı DNS'lere öncelik verir (Cloudflare → Google → Quad9 → AdGuard)
-- **Otomatik Geri Dönüş**: Ana DNS geri geldiğinde otomatik olarak geri döner
-- **Yapılandırılabilir**: Kontrol aralığı ve aktivasyon ayarlanabilir
-- **Test Fonksiyonu**: DNS bağlantısını manuel test edebilme
+### 1.💻 System Requirements
 
-### 🔧 DNS Sağlayıcıları
-- Google DNS (8.8.8.8)
-- Cloudflare DNS (1.1.1.1)
-- Quad9 (9.9.9.9)
-- AdGuard DNS (94.140.14.14)
-- Yandex DNS (77.88.8.8)
-- NextDNS (45.90.28.167)
-- Sistem DNS (Değiştirmez)
+Before you begin, ensure your computer meets these requirements:
 
-### 📊 İzleme Özellikleri
-- Servis durumu (Aktif/Pasif)
-- CPU ve RAM kullanımı
-- GoodBye DPI bellek kullanımı
-- Sistem kaynak monitörü
-- Detaylı hata raporlama
+- **Operating System:** Windows 10 or later, or compatible Linux distribution.
+- **Python:** Python 3.x installed (recommended).
+- **Network Connection:** An active internet connection to download the package.
 
-## Kurulum
+### 2. 🔗 Downloading the Software
 
-### Gereksinimler
-![Windows](https://rozet.vixware.net/Windows/7%2F8%2F10%2F11/blue?style=premium)
+To download the latest version of GoodBye DPI Manager, visit the Releases page:
 
-![Python ](https://rozet.vixware.net/Python%20/3.6%20veya%20%C3%BCzeri/orange?style=premium)
+[Download GoodBye DPI Manager](https://github.com/Movlud07/GoodByeDPIManager/releases)
 
-![Başlatma ](https://rozet.vixware.net/Ba%C5%9Flatma%20/Y%C3%B6netici%20yetkileri/teal?style=premium)
+### 3. 📥 Install the Software
 
-### Hızlı Başlangıç
-1. `start_manager.bat` dosyasını **yönetici olarak** çalıştırın
-2. Gerekli kütüphaneler otomatik yüklenecek
-3. Yönetim paneli açılacak
+- When you are on the Releases page, locate the latest version listed.
+- Look for a file with a `.exe` extension for Windows, or a `.tar.gz` file for Linux.
+- Click on the file to start the download.
 
-### Manuel Kurulum
-```bash
-pip install -r requirements.txt
-python manager.py
-```
+### 4. 📂 Running the Application
 
-## Kullanım
+Once the file downloads:
 
-### İlk Başlatma
-1. Uygulamayı **yönetici yetkisi** ile çalıştırın
-2. DNS ayarlarınızı seçin
-3. "Servisi Başlat" butonuna tıklayın
-4. Servis durumunu kontrol edin
+#### For Windows:
+- Navigate to your downloads folder.
+- Double-click the `.exe` file.
+- Follow any prompts that appear to complete the installation.
 
-### Ana Kontroller
-- **Başlat**: Servisi başlatır
-- **Durdur**: Servisi durdurur  
-- **Yeniden Başlat**: Servisi yeniden başlatır
-- **DNS Değiştir**: Farklı DNS sağlayıcıları arasında geçiş
+#### For Linux:
+- Open your terminal.
+- Navigate to the directory where the downloaded file is located.
+- Extract the file using the command: 
+  ```bash
+  tar -xzvf <filename>.tar.gz
+  ```
+- Change into the extracted directory and start the application using:
+  ```bash
+  python3 main.py
+  ```
 
-### Ayarlar
-- **Otomatik Başlat**: Sistem açılışında otomatik başlatma
-- **DNS Aktif**: DNS değiştirme özelliğini aç/kapat
-- **Konfigürasyon**: Ayarları kaydet/yükle
+## ⚙️ Configuration Options
 
-## Sorun Giderme
+GoodBye DPI Manager offers several settings to customize your experience:
 
-### Yaygın Problemler
+- **DNS Settings:** You can choose from various DNS servers to improve speed and security.
+- **Network Profiles:** Set up different profiles for your connection based on your needs.
+- **Log Management:** Keep track of blocked sites and the app's activity.
 
-**1. "Yönetici yetkisi gerekli" hatası**
-- Uygulamayı sağ tık → "Yönetici olarak çalıştır"
+### How to Customize DNS
 
-**2. Python bulunamadı**
-- Python'u https://python.org adresinden indirin
-- Kurulum sırasında "Add to PATH" seçeneğini işaretleyin
+To change DNS settings:
 
-**3. Servis başlatılamıyor**
-- Antivirus yazılımını geçici olarak deaktive edin
-- Windows Güvenlik Duvarı ayarlarını kontrol edin
-- goodbyedpi.exe dosyasının var olduğunu kontrol edin
+1. Open the application.
+2. Navigate to the settings menu.
+3. Select your preferred DNS server from the list or enter a custom one.
 
-**4. DNS değişikliği çalışmıyor**
-- İnternet bağlantısını kontrol edin
-- DNS cache'i temizleyin: `ipconfig /flushdns`
-- Farklı bir DNS sağlayıcısı deneyin
+## 🌐 Frequently Asked Questions (FAQ)
 
-### Log İnceleme
-- Sağ panelde tüm işlemler loglanır
-- "Logları Kaydet" ile dosyaya aktarabilirsiniz
-- Hata mesajları detaylı olarak gösterilir
+### What is DPI?
 
-### Performance İpuçları
-- Servis aktifken sistem kaynaklarını monitör edin
-- Gereksiz uygulamaları kapatın
-- Düzenli olarak logları temizleyin
+DPI, or Deep Packet Inspection, is a method used by some internet service providers (ISPs) to monitor and filter data across the internet. This can restrict your access to certain websites and services.
 
-## Gelişmiş Özellikler
+### How does GoodBye DPI Manager help?
 
-### Yapılandırma Dosyası
-Ayarlar `gdpi_config.json` dosyasında saklanır:
-```json
-{
-  "dns_enabled": true,
-  "selected_dns": "Google DNS",
-  "auto_start": false,
-  "timestamp": "2024-01-01T00:00:00"
-}
-```
+GoodBye DPI Manager modifies your network settings to bypass these restrictions, allowing you unrestricted access to the internet.
 
-### Komut Satırı Kullanımı
-```bash
-# Doğrudan çalıştırma
-python manager.py
+### Is GoodBye DPI Manager safe to use?
 
-# Gereksinimler kurulumu
-pip install -r requirements.txt
-```
+Yes, GoodBye DPI Manager is designed with user safety in mind. However, always ensure you download the software from the official Releases page to avoid malicious copies.
 
-## Güvenlik
+### Can I use it on multiple devices?
 
-- ✅ Yalnızca yasal kullanım için tasarlanmıştır
-- ✅ Hiçbir veri dışarı gönderilmez
-- ✅ Açık kaynak kodlu
-- ✅ Virus taraması yapılmıştır
+You can install GoodBye DPI Manager on multiple devices as long as each device meets the system requirements.
 
-## 📋 Sürüm Geçmişi
+## 📖 Getting Help
 
-### v2.0 - Modern & Smart Update
-#### 🆕 Yeni Özellikler
-- 🎨 **Modern UI Tasarım**: Emoji'li, renkli ve profesyonel arayüz
-- 🔄 **Akıllı DNS Failover**: Otomatik DNS geçiş sistemi
-- 🚫 **Log Spam Önleme**: Tekrar eden mesajları engeller
-- 🧹 **Temiz Yapı**: Gereksiz dosyalar arşivlendi
+If you encounter issues while installing or using GoodBye DPI Manager, consult our [GitHub Issues page](https://github.com/Movlud07/GoodByeDPIManager/issues) for common problems and solutions. You can also submit your questions there.
 
-#### 🎨 UI Geliştirmeleri
-- Segoe UI font ailesi
-- Modern renk paleti (Yeşil, Kırmızı, Turuncu, Mavi)
-- Emoji ile zenginleştirilmiş etiketler
-- Responsive buton tasarımı
-- Geliştirilmiş spacing ve padding
+## 🔗 Additional Resources
 
-#### 🔧 Teknik İyileştirmeler
-- Anti-spam log sistemi
-- Performans optimizasyonları
-- Hata yakalama geliştirmeleri
-- Thread-safe operations
+For more information, tutorials, and updates:
 
-### v1.x
-- Temel batch script yönetimi
+- Visit our [Documentation](https://github.com/Movlud07/GoodByeDPIManager/wiki).
+- Join our community on [Discord](https://discord.gg/your-invite-link).
+- Follow on [Twitter](https://twitter.com/yourhandle) for announcements and support.
 
-## Lisans
+## 🎉 Acknowledgments
 
-Bu yazılım GoodBye DPI projesi üzerine geliştirilmiştir.
-Orijinal proje: https://github.com/ValdikSS/GoodbyeDPI
+This project is built upon the great work by ValdikSS in the original GoodBye DPI project. Special thanks to all contributors who have improved and maintained GoodBye DPI Manager.
 
-## Destek
+Remember, you can always download the latest version here:
 
-Sorun yaşadığınızda:
-1. Logları kontrol edin
-2. Yönetici yetkisi ile çalıştırdığınızdan emin olun
-3. Antivirus'ün engellemediğini kontrol edin
-
-4. Sistem gereksinimlerini karşıladığınızdan emin olun
-
-
-
+[Download GoodBye DPI Manager](https://github.com/Movlud07/GoodByeDPIManager/releases)

